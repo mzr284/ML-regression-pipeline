@@ -1,0 +1,51 @@
+{
+    "Trea Base": {
+        "DecisionTree": {
+            "Train": {
+                "r2": 1,
+                "r2_CV_mean": 0.253
+            },
+            "Test": {
+                "r2": 0.356
+            }
+        },
+        "RandomForest": {
+            "Trian": {
+                "r2_CV_mean": 0.392,
+                "r2_score": 0.648,
+                "mean_absolute_error": 37.439
+            },
+            "Test": {
+                "r2_score": 0.496,
+                "mean_absolute_error": 42.291
+            }
+        }
+    },
+    "Linear": {
+        "Ridge": {
+            "Train": {
+                "r2_CV_mean": 0.286
+            },
+            "Test": {
+                "r2_score": 0.412
+            }
+        },
+        "Lasso": {
+            "Train": {
+                "r2_CV_mean": 0.277
+            },
+            "Test": {
+                "r2_score": 0.416
+            }
+        },
+        "Elastic Net": {
+            "Train": {
+                "r2_CV_mean": 0.278
+            },
+            "Test": {
+                "r2_score": 0.414
+            }
+        }
+    },
+    "Best Model": "RandomForest"
+}
